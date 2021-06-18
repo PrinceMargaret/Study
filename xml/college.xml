@@ -1,0 +1,19 @@
+<?xml  version="1.0"?>
+<!DOCTYPE College
+[
+<!ELEMENT College (Student)*>
+<!ELEMENT Student (EnrollmentNO,RollNo,Name ,Address,Phone)>
+<!ELEMENT EnrollmentNO (#PCDATA)>   
+<!ELEMENT RollNo (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>]>
+<College>
+    <Student>
+        <EnrollmentNO>12345567</EnrollmentNO>
+        <RollNo>18222010046</RollNo>
+        <Name>Prince</Name>
+        <Address>India</Address>
+        <Phone>2345678990</Phone>
+    </Student>
+</College>
